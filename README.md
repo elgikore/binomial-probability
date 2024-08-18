@@ -2,7 +2,7 @@
 Inspired by my STATs class, I randomly decided to make a command-line application that has binomial probability-related things in it. 
 <br><br>
 It can:
-* Solve $Pr(X = x)$ questions, including $\leq$, $\geq$, <, and >.
+* Solve $Pr(X = x)$ questions, including $\leq$, $\geq$, $<$, and $>$.
 * Produce a binomial probability table with essential statistics like mean, variance, and standard deviation
 * Produce a binomial probability distribution with different graph styles such as line graphs, bar graphs, and scatterplots.
 <br><br>
