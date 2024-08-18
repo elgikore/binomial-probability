@@ -150,17 +150,17 @@ class BinomialDist:
 
         match graph_type.lower():
             case 'bar':
-                ax = sns.barplot(self.probability_table, x='small_x', y='Probability', color='#3A1078')
+                ax = sns.barplot(self.probability_table, x='(small) x', y='Probability', color='#3A1078')
             case 'line':
-                ax = sns.lineplot(self.probability_table, x='small_x', y='Probability', c='#4E31AA', markers=True, dashes=False)
+                ax = sns.lineplot(self.probability_table, x='(small) x', y='Probability', c='#4E31AA', markers=True, dashes=False)
             case 'scatter':
-                ax = sns.scatterplot(self.probability_table, x='small_x', y='Probability', c='#3795BD')
+                ax = sns.scatterplot(self.probability_table, x='(small) x', y='Probability', c='#3795BD')
             case 'linepoint':
-                ax = sns.scatterplot(self.probability_table, x='small_x', y='Probability', c='#3795BD')
-                sns.lineplot(self.probability_table, x='small_x', y='Probability', c='#4E31AA', markers=True, dashes=False)
+                ax = sns.scatterplot(self.probability_table, x='(small) x', y='Probability', c='#3795BD')
+                sns.lineplot(self.probability_table, x='(small) x', y='Probability', c='#4E31AA', markers=True, dashes=False)
             case 'linebar':
-                ax = sns.barplot(self.probability_table, x='small_x', y='Probability', color='#3A1078')
-                sns.lineplot(self.probability_table, x='small_x', y='Probability', c='#3795BD', markers=True, dashes=False)
+                ax = sns.barplot(self.probability_table, x='(small) x', y='Probability', color='#3A1078')
+                sns.lineplot(self.probability_table, x='(small) x', y='Probability', c='#3795BD', markers=True, dashes=False)
             case _:
                 raise ValueError(f'Invalid input! "{graph_type}" is not a valid graph type.')
         
