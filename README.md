@@ -7,10 +7,10 @@ It can:
 * Produce a binomial probability distribution with different graph styles such as line graphs, bar graphs, and scatterplots.
 <br><br>
 
-# What is binomial probability
+# What is Binomial Probability
 <p float="left">
-  <img src="https://th.bing.com/th/id/OIP.1HQFaDGys_wVvYfYMeBOiwAAAA?rs=1&pid=ImgDetMain" alt="Binomial Probability Graph" width="300"/>
-  <img src="https://github.com/user-attachments/assets/15a437b0-5218-4dd9-8745-72921c09c2aa" alt="Picture of the app" width="550"/>
+  <img src="https://th.bing.com/th/id/OIP.1HQFaDGys_wVvYfYMeBOiwAAAA?rs=1&pid=ImgDetMain" alt="Binomial Probability Graph" width="33%"/>
+  <img src="https://github.com/user-attachments/assets/15a437b0-5218-4dd9-8745-72921c09c2aa" alt="Picture of the app" height="320" width="66%"/>
 </p>
 
 Binomial probability is used to calculate the success ($\pi$)/failure ($1 - \pi$) in an event, or more generally the probability of something happening and not happpening.
