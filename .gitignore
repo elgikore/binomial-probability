@@ -1,0 +1,5 @@
+.venv/
+.vscode/
+Test.py
+__pycache__/
+another.py
