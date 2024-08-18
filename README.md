@@ -16,10 +16,10 @@ It can:
 Binomial probability is used to calculate the success ($\pi$)/failure ($1 - \pi$) in an event, or more generally the probability of something happening and not happpening.
 <br><br>
 There are certain conditions for an experiment/event to be binomial:
-* Event can be summarized to two outcomes (i.e. $\pi$ and its complement)
-* Trials ($n$) must be independent
-* Trials ($n$) must be fixed prior to data collection
-* Probability of success/target outcome ($\pi$) must stay constant
+* Event can be summarized to two outcomes (i.e. $\pi$ and its complement).
+* Trials ($n$) must be independent.
+* Trials ($n$) must be fixed prior to data collection.
+* Probability of success/target outcome ($\pi$) must stay constant.
 
 The formula used is:<br>
 ```math
@@ -44,5 +44,5 @@ Where:
    pip install seaborn
    ```
 3. Click the green code button and download as a ZIP (or you can clone it).
-4. Run BinomialApp.py on your Python terminal or any Python IDE
+4. Run BinomialApp.py on your Python terminal or any Python IDE.
 5. Enjoy!
