@@ -43,6 +43,6 @@ Where:
    pip install matplotlib
    pip install seaborn
    ```
-3. Click the green code button and download as a ZIP (or you can clone it).
+3. Click the latest version on the Releases section and download the source code. Alternatively, click the green code button and download as a ZIP (or you can clone it). 
 4. Run BinomialApp.py on your Python terminal or any Python IDE.
 5. Enjoy!
