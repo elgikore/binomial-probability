@@ -28,7 +28,7 @@ Pr(X=x)=\binom{n}{x}(\pi^x)(1-\pi)^{n-x}
 Where:
 * $n$ = Total number of independent trials
 * $\pi$ = Probability of success/target outcome
-* $x$ = Probability of x successes (i.e. the little x in $P(X = x)$)
+* $x$ = Probability of x successes (i.e. the little x in $P(X = x)$ )
 * $\binom{n}{x}$ = Combination formula
 <br><br>
 
