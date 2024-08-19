@@ -123,27 +123,27 @@ def probability_operations(header_screen: Callable, pr_selections: tuple) -> Non
             case 1:
                 clear()
                 x = set_x_value(pr_selections[0])
-                print(f"Pr(X <= x) = {binomial.less_or_equal(x)}\n")
+                print(f"Pr(X <= {x}) = {binomial.less_or_equal(x)}\n")
                 clear_continue()
             case 2:
                 clear()
                 x = set_x_value(pr_selections[1])
-                print(f"Pr(X >= x) = {binomial.greater_or_equal(x)}\n")
+                print(f"Pr(X >= {x}) = {binomial.greater_or_equal(x)}\n")
                 clear_continue()
             case 3:
                 clear()
                 x = set_x_value(pr_selections[2])
-                print(f"Pr(X < x) = {binomial.lesser_than(x)}\n")
+                print(f"Pr(X < {x}) = {binomial.lesser_than(x)}\n")
                 clear_continue()
             case 4:
                 clear()
                 x = set_x_value(pr_selections[3])
-                print(f"Pr(X > x) = {binomial.greater_than(x)}\n")
+                print(f"Pr(X > {x}) = {binomial.greater_than(x)}\n")
                 clear_continue()
             case 5:
                 clear()
                 x = set_x_value(pr_selections[4])
-                print(f"Pr(X = x) = {binomial.small_x_value(x)}\n")
+                print(f"Pr(X = {x}) = {binomial.small_x_value(x)}\n")
                 clear_continue()
             case _:
                 continue
